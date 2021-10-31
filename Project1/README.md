@@ -3,10 +3,15 @@
 By making a copy of the image, we can edit the configurations as we wish, if required. 
 
 Jupyter: https://hub.docker.com/r/navyashree1997/bigdata-jupyter (Pulled from: https://hub.docker.com/r/jupyter/minimal-notebook)
+
 Sonarqube: https://hub.docker.com/r/navyashree1997/sonarscanner (Own image)
+
 Hadoop master: https://hub.docker.com/r/navyashree1997/bigdata-hadoop-namenode (Pulled from: https://hub.docker.com/r/bde2020/hadoop-namenode)
+
 Hadoop datanode: https://hub.docker.com/r/navyashree1997/bigdata-hadoop-datanode (Pulled from : https://hub.docker.com/r/bde2020/hadoop-datanode)
+
 Spark: https://hub.docker.com/r/navyashree1997/bigdata-spark (Pulled from: https://hub.docker.com/r/bitnami/spark)
+
 GUI: https://hub.docker.com/r/navyashree1997/bigdata-terminal-html (Own image)
 
 2 The SonarQube docker image is built by using the Dockerfile present in the sonar folder of this repository. We build, run and push the docker image to our Docker repo.
